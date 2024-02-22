@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://fonoteka.top/uploads/posts/2022-02/1645349404_34-phonoteka-org-p-krasivii-fon-v-zume-36.jpg");
+    background-position: center 20%;
+    background-size: cover;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: blueviolet;
+    color: white;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: white;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Arzan nout
+  Date: 21.02.2024
+  Time: 2:26
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        <%@include file="/WEB-INF/views/css/form.css" %>
+    </style>
+</head>
+<body>
+<h1>Update teacher</h1>
+<form action="/teacher/update/${company.id}" method="post">
+    <label>first name:</label><input value="${company.firstName}" type="text" name="fName">
+    <label>last name:</label><input value="${company.lastName}" type="text" name="lName">
+    <label>email:</label><input value="${company.email}" type="text" name="email">
+    <input type="submit" value="update">
+</form>
+</body>
+</html>
